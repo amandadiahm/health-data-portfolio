@@ -1,0 +1,78 @@
+---
+title: "Global Life Expectancy Analysis"
+format: html
+---
+
+## Load libraries
+
+library(tidyverse)
+
+## 📥 Load dataset
+
+df_raw <- read_csv("projects/project1/API_SP.DYN.LE00.IN_DS2_en_csv_v2_121663.csv", skip = 4)
+df_raw
+
+## Cleaning data
+
+df_clean <- df_raw %>%
+  select(`Country Name`, starts_with("20")) %>%
+  pivot_longer(
+    cols = -`Country Name`,
+    names_to = "year",
+    values_to = "life_expectancy"
+  ) %>%
+  mutate(year = as.numeric(year)) %>%
+  drop_na()
+df_clean
+
+## Visualization
+
+
+df_global <- df_clean %>%
+  group_by(year) %>%
+  summarise(mean_life = mean(life_expectancy, na.rm = TRUE))
+
+ggplot(df_global, aes(x = year, y = mean_life)) +
+  geom_line(color = "blue", size = 1) +
+  labs(
+    title = "Global Life Expectancy Trend",
+    x = "Year",
+    y = "Life Expectancy"
+  )
+
+
+## Insight
+
+Global life expectancy has shown a consistent increasing trend over the last two decades.
+
+This improvement may reflect better access to healthcare, vaccination programs and public health interventions across countries.
+
+
+## Countries Comparison
+
+selected_countries <- df_clean %>%
+  filter(`Country Name` %in% c("Indonesia", "Australia", "Brazil"))
+
+ggplot(selected_countries, aes(year, life_expectancy, color = `Country Name`)) +
+  geom_line(size = 1) +
+  labs(
+    title = "Life Expectancy Comparison",
+    y = "Life Expectancy"
+  )
+
+quarto::quarto_render()
+
+
+# Projects
+
+## Global Life Expectancy Analysis
+
+This project explores global trends in life expectancy using World Bank data.
+
+👉 projects/project1/analysis.html
+
+
+
+
+
+

@@ -14,20 +14,6 @@
     "text": "This project explores trends in life expectancy using WHO data.\n\n\n\nData cleaning (tidyverse)\nVisualization (ggplot2)\nBasic statistical analysis\n\n👉 Coming soon"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About Me",
-    "section": "",
-    "text": "I am a medical doctor currently pursuing a Master of Public Health.\nI am passionate about: - Data-driven healthcare - Epidemiology - Using R for health data analysis\n\n\nTo combine clinical knowledge with data science to improve public health outcomes."
-  },
-  {
-    "objectID": "about.html#my-goal",
-    "href": "about.html#my-goal",
-    "title": "About Me",
-    "section": "",
-    "text": "To combine clinical knowledge with data science to improve public health outcomes."
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Welcome 👋",
@@ -54,5 +40,19 @@
     "title": "Welcome 👋",
     "section": "",
     "text": "GitHub: https://github.com/amdmaharani"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Me",
+    "section": "",
+    "text": "I am a medical doctor currently pursuing a Master of Public Health.\nI am passionate about: - Data-driven healthcare - Epidemiology - Using R for health data analysis\n\n\nTo combine clinical knowledge with data science to improve public health outcomes."
+  },
+  {
+    "objectID": "about.html#my-goal",
+    "href": "about.html#my-goal",
+    "title": "About Me",
+    "section": "",
+    "text": "To combine clinical knowledge with data science to improve public health outcomes."
   }
 ]
