@@ -1,0 +1,18 @@
+
+
+# Welcome 👋
+
+Hi! I'm Amanda — a medical doctor and MPH student exploring health data analysis using R.
+
+## 🔬 My Focus
+- Public health
+- Data analysis with R
+- Epidemiology
+
+## 📊 Featured Projects
+- Global Life Expectancy Analysis (coming soon)
+
+---
+
+## 📫 Connect with me
+- GitHub: https://github.com/amdmaharani

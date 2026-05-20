@@ -1,0 +1,19 @@
+
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Amanda's Playground"
+  navbar:
+    left:
+      - text: Home
+        href: index.qmd
+      - text: About
+        href: about.qmd
+      - text: Projects
+        href: projects.qmd
+
+format:
+  html:
+    theme: cosmo

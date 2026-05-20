@@ -1,0 +1,14 @@
+
+
+
+# About Me
+
+I am a medical doctor currently pursuing a Master of Public Health.
+
+I am passionate about:
+- Data-driven healthcare
+- Epidemiology
+- Using R for health data analysis
+
+## 🎯 My Goal
+To combine clinical knowledge with data science to improve public health outcomes.
