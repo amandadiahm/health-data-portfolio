@@ -1,19 +1,30 @@
+
 ---
 title: "Global Life Expectancy Analysis"
-format: html
 ---
 
-## Load libraries
+This project explores global trends in life expectancy using World Bank data.
 
+## Load Libraries
+```{r}
 library(tidyverse)
+```
 
-## 📥 Load dataset
 
-df_raw <- read_csv("projects/project1/API_SP.DYN.LE00.IN_DS2_en_csv_v2_121663.csv", skip = 4)
+---
+
+### 📥 Load Dataset
+```{r}
+df_raw <- read_csv("~/health-data-portfolio/projects/project1/API_SP.DYN.LE00.IN_DS2_en_csv_v2_121663.csv", skip = 4)
 df_raw
+```
 
-## Cleaning data
 
+
+---
+
+## Cleaning Data
+```{r}
 df_clean <- df_raw %>%
   select(`Country Name`, starts_with("20")) %>%
   pivot_longer(
@@ -24,10 +35,13 @@ df_clean <- df_raw %>%
   mutate(year = as.numeric(year)) %>%
   drop_na()
 df_clean
+```
 
-## Visualization
 
+---
 
+##Global Trend Visualization
+```{r}
 df_global <- df_clean %>%
   group_by(year) %>%
   summarise(mean_life = mean(life_expectancy, na.rm = TRUE))
@@ -39,17 +53,22 @@ ggplot(df_global, aes(x = year, y = mean_life)) +
     x = "Year",
     y = "Life Expectancy"
   )
+```
 
+
+
+---
 
 ## Insight
 
 Global life expectancy has shown a consistent increasing trend over the last two decades.
 
-This improvement may reflect better access to healthcare, vaccination programs and public health interventions across countries.
+This improvement may reflect better access to healthcare, vaccination programs, and public health interventions across countries.
 
+---
 
-## Countries Comparison
-
+## Indonesia vs Australia vs Brazil
+```{r}
 selected_countries <- df_clean %>%
   filter(`Country Name` %in% c("Indonesia", "Australia", "Brazil"))
 
@@ -59,18 +78,10 @@ ggplot(selected_countries, aes(year, life_expectancy, color = `Country Name`)) +
     title = "Life Expectancy Comparison",
     y = "Life Expectancy"
   )
+```
 
-quarto::quarto_render()
 
-
-# Projects
-
-## Global Life Expectancy Analysis
-
-This project explores global trends in life expectancy using World Bank data.
-
-👉 projects/project1/analysis.html
-
+quarto::quarto_render("analysis.qmd")
 
 
 

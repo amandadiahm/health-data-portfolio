@@ -4,11 +4,11 @@
 
 ## 📊 Global Life Expectancy Analysis
 
-This project explores trends in life expectancy using WHO data.
+This project explores trends in life expectancy using World Bank data.
 
 ### Skills used:
 - Data cleaning (tidyverse)
 - Visualization (ggplot2)
 - Basic statistical analysis
 
-👉 Coming soon
+👉 [View Project](projects/project1/analysis.html)
