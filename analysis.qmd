@@ -1,0 +1,108 @@
+
+---
+title: "Global Life Expectancy Analysis"
+---
+
+This project explores global trends in life expectancy using World Bank data.
+
+## Load Libraries
+```{r}
+library(tidyverse)
+```
+
+
+---
+
+### 📥 Load Dataset
+```{r}
+df_raw <- read_csv("~/health-data-portfolio/projects/project1/API_SP.DYN.LE00.IN_DS2_en_csv_v2_121663.csv", skip = 4)
+df_raw
+```
+
+
+
+---
+
+## Cleaning Data
+```{r}
+df_clean <- df_raw %>%
+  select(`Country Name`, starts_with("20")) %>%
+  pivot_longer(
+    cols = -`Country Name`,
+    names_to = "year",
+    values_to = "life_expectancy"
+  ) %>%
+  mutate(year = as.numeric(year)) %>%
+  drop_na()
+df_clean
+```
+
+
+---
+
+##Global Trend Visualization
+```{r}
+df_global <- df_clean %>%
+  group_by(year) %>%
+  summarise(mean_life = mean(life_expectancy, na.rm = TRUE))
+
+ggplot(df_global, aes(x = year, y = mean_life)) +
+  geom_line(color = "blue", size = 1) +
+  labs(
+    title = "Global Life Expectancy Trend",
+    x = "Year",
+    y = "Life Expectancy"
+  )
+```
+
+
+
+---
+
+## Insight
+
+Global life expectancy has shown a consistent increasing trend over the last two decades.
+
+For nearly two decades, the line climbs at a remarkably steady and predictable rate. This reflects immense global strides in reducing child mortality, improving access to clean water, expanding vaccine availability, and advancing medical treatments worldwide.
+
+Starting in 2020, the steady upward trend is abruptly broken. Global life expectancy plummets sharply over a two-year period, bottoming out in 2021 at approximately 71.4 years. A drop of more than a full year on a global scale is an extraordinary demographic shock. This visualizes the collective impact of the COVID-19 pandemic—not just from direct virus fatalities, but also from strained healthcare systems worldwide that disrupted treatment for other conditions.
+
+By 2023 and 2024, the line completely recovers from the pandemic slump and surges to its highest point on the graph, reaching nearly 73.5 years. This indicates that once the acute crisis phase of the pandemic passed, global healthcare systems and population health metrics rapidly corrected back to their long-term growth trajectories.
+
+---
+
+## Indonesia vs Australia vs Brazil
+```{r}
+selected_countries <- df_clean %>%
+  filter(`Country Name` %in% c("Indonesia", "Australia", "Brazil"))
+
+ggplot(selected_countries, aes(year, life_expectancy, color = `Country Name`)) +
+  geom_line(size = 1) +
+  labs(
+    title = "Life Expectancy Comparison",
+    y = "Life Expectancy"
+  )
+```
+
+
+
+---
+
+## Insight
+
+The graph reveals three distinct tiers of life expectancy across the entire 24-year period:
+- High tier (Australia), consistently holds the highest life expectancy, starting near 79 years in 2000 and climbing toward the mid-80s by 2024.
+- Mid tier (Brazil), sits firmly in the middle, starting just under 70 years and rising to around 76 years.
+- Lower tier (Indonesia), consistently records the lowest life expectancy of the three, starting around 66 years and ending just above 71 years.
+
+From 2000 up until 2009, all three countries experienced a steady, positive upward trajectory. This might reflect global improvements in healthcare, sanitation, and living standards.
+
+The most striking feature of the graph is the dramatic drop in life expectancy around 2020-2021. 
+This sharp downward spike is highly characteristic of the global impact of the COVID-19 pandemic. 
+Interestingly, Australia's line does not show a sharp drop during 2020-2021. Instead, it plateaus and slightly rounds off.
+This reflects Australia's strict early pandemic border controls and isolation measures, which delayed or minimised initial excess mortality compared to Brazil and Indonesia.
+
+Following the pandemic shock, the graph shows a rapid "V-shaped" recovery for the affected nations (Brazil and Indonesia).
+Australia shows a slight, minor dip or stabilisation in the final years (2022-2024), which aligns with the period when the country opened its borders.
+
+

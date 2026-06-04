@@ -1,16 +1,24 @@
 
 
+
 # Projects
 
-## 📊 Global Life Expectancy Analysis
+## [Global Life Expectancy Analysis](analysis.qmd)
+- Visualized life expectancy 
+- Compared life expectancy among selected countries 
 
-This project explores trends in life expectancy using World Bank data.
+## COVID-19 Vaccination Analysis
+- Time-series analysis of vaccination trends  
+- Identified gaps in coverage  
+- Provided data-driven recommendations  
 
-### Skills used:
-- Data cleaning (tidyverse)
-- Visualization (ggplot2)
-- Basic statistical analysis
+## Risk Factor Analysis
+- Explored association between lifestyle and disease  
+- Statistical modelling  
+- Identified key predictors  
 
-👉 [View Project](projects/project1/analysis.html)
+## Health Inequality Study
+- Compared demographic groups  
+- Highlighted disparities  
+- Suggested policy insights
 
-quarto::quarto_render()

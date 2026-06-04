@@ -18,3 +18,6 @@ system('git config user.email "amanda.dmaharani@gmail.com"')
 
 system("git config user.name")
 system("git config user.email")
+
+
+

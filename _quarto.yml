@@ -4,16 +4,19 @@ project:
   output-dir: docs
 
 website:
-  title: "Amanda's Playground"
+  title: "Amanda Diah Maharani, MD"
   navbar:
     left:
       - text: Home
         href: index.qmd
-      - text: About
-        href: about.qmd
       - text: Projects
         href: projects.qmd
+      - text: Insights
+        href: insights.qmd
 
 format:
   html:
-    theme: cosmo
+    theme: flatly
+    css: styles.css
+    toc: true
+    smooth-scroll: true

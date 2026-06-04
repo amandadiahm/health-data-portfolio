@@ -1,0 +1,41 @@
+
+/* Heading */
+h1 {
+  margin-bottom: 5px;
+}
+ 
+h2 
+{
+  margin-top: 0;
+}
+
+h3 {
+  color: #1f3a5f;
+}
+
+/* Link */
+a {
+  color: #2a9d8f;
+  font-weight: 500;
+}
+
+a:hover {
+  color: #1f776d;
+  text-decoration: underline;
+}
+
+/* Body */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+}
+
+/* Card feel */
+.quarto-projects .card {
+  border-radius: 10px;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #2c3e50;
+}

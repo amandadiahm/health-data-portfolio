@@ -4,21 +4,21 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "This project explores trends in life expectancy using WHO data.\n\n\n\nData cleaning (tidyverse)\nVisualization (ggplot2)\nBasic statistical analysis\n\n👉 View Project"
+    "text": "Visualized life expectancy\nCompared life expectancy among selected countries\n\n\n\n\n\nTime-series analysis of vaccination trends\n\nIdentified gaps in coverage\n\nProvided data-driven recommendations\n\n\n\n\n\nExplored association between lifestyle and disease\n\nStatistical modelling\n\nIdentified key predictors\n\n\n\n\n\nCompared demographic groups\n\nHighlighted disparities\n\nSuggested policy insights"
   },
   {
     "objectID": "projects.html#global-life-expectancy-analysis",
     "href": "projects.html#global-life-expectancy-analysis",
     "title": "Projects",
     "section": "",
-    "text": "This project explores trends in life expectancy using WHO data.\n\n\n\nData cleaning (tidyverse)\nVisualization (ggplot2)\nBasic statistical analysis\n\n👉 View Project"
+    "text": "Visualized life expectancy\nCompared life expectancy among selected countries"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Welcome 👋",
+    "title": "Public Health & Data Insights",
     "section": "",
-    "text": "Hi! I’m Amanda — a medical doctor and MPH student exploring health data analysis using R.\n\n\n\nPublic health\nData analysis with R\nEpidemiology\n\n\n\n\n\nGlobal Life Expectancy Analysis (coming soon)\n\n\n\n\n\n\nGitHub: https://github.com/amdmaharani"
+    "text": "I transform health data into actionable insights to support\nevidence-based decisions and improve population health outcomes.\nI also share insights and reflections on public health issues through\nwritings, combining data analysis with critical perspectives on\nhealth policy and population challenges.\n📧 Email | 🔗 LinkedIn"
   },
   {
     "objectID": "index.html#my-focus",
@@ -46,14 +46,14 @@
     "href": "about.html",
     "title": "About Me",
     "section": "",
-    "text": "I am a medical doctor currently pursuing a Master of Public Health.\nI am passionate about: - Data-driven healthcare - Epidemiology - Using R for health data analysis\n\n\nTo combine clinical knowledge with data science to improve public health outcomes."
+    "text": "I am a medical doctor currently pursuing a Master of Public Health.\nI am passionate about: - Data-driven healthcare - Epidemiology - Using R for health data analysis\n\n\nTo combine clinical knowledge with data science to improve public health outcomes and support evidence-based decision-making."
   },
   {
     "objectID": "about.html#my-goal",
     "href": "about.html#my-goal",
     "title": "About Me",
     "section": "",
-    "text": "To combine clinical knowledge with data science to improve public health outcomes."
+    "text": "To combine clinical knowledge with data science to improve public health outcomes and support evidence-based decision-making."
   },
   {
     "objectID": "projects/project1/analysis.html",
@@ -95,7 +95,7 @@
     "href": "projects/project1/analysis.html#insight",
     "title": "Global Life Expectancy Analysis",
     "section": "Insight",
-    "text": "Insight\nGlobal life expectancy has shown a consistent increasing trend over the last two decades.\nThis improvement may reflect better access to healthcare, vaccination programs, and public health interventions across countries."
+    "text": "Insight\nGlobal life expectancy has shown a consistent increasing trend over the last two decades.\nFor nearly two decades, the line climbs at a remarkably steady and predictable rate. This reflects immense global strides in reducing child mortality, improving access to clean water, expanding vaccine availability, and advancing medical treatments worldwide.\nStarting in 2020, the steady upward trend is abruptly broken. Global life expectancy plummets sharply over a two-year period, bottoming out in 2021 at approximately 71.4 years. A drop of more than a full year on a global scale is an extraordinary demographic shock. This visualizes the collective impact of the COVID-19 pandemic—not just from direct virus fatalities, but also from strained healthcare systems worldwide that disrupted treatment for other conditions.\nBy 2023 and 2024, the line completely recovers from the pandemic slump and surges to its highest point on the graph, reaching nearly 73.5 years. This indicates that once the acute crisis phase of the pandemic passed, global healthcare systems and population health metrics rapidly corrected back to their long-term growth trajectories."
   },
   {
     "objectID": "projects/project1/analysis.html#countries-comparison",
@@ -116,6 +116,104 @@
     "href": "projects/project1/analysis.html#indonesia-vs-australia-vs-brazil",
     "title": "Global Life Expectancy Analysis",
     "section": "Indonesia vs Australia vs Brazil",
-    "text": "Indonesia vs Australia vs Brazil\n\nselected_countries &lt;- df_clean %&gt;%\n  filter(`Country Name` %in% c(\"Indonesia\", \"Australia\", \"Brazil\"))\n\nggplot(selected_countries, aes(year, life_expectancy, color = `Country Name`)) +\n  geom_line(size = 1) +\n  labs(\n    title = \"Life Expectancy Comparison\",\n    y = \"Life Expectancy\"\n  )\n\n\n\n\n\n\n\n\nquarto::quarto_render(“analysis.qmd”)"
+    "text": "Indonesia vs Australia vs Brazil\n\nselected_countries &lt;- df_clean %&gt;%\n  filter(`Country Name` %in% c(\"Indonesia\", \"Australia\", \"Brazil\"))\n\nggplot(selected_countries, aes(year, life_expectancy, color = `Country Name`)) +\n  geom_line(size = 1) +\n  labs(\n    title = \"Life Expectancy Comparison\",\n    y = \"Life Expectancy\"\n  )"
+  },
+  {
+    "objectID": "index.html#masters-student-in-public-health",
+    "href": "index.html#masters-student-in-public-health",
+    "title": "Public Health & Data Insights",
+    "section": "",
+    "text": "I transform health data into actionable insights to support\nevidence-based decisions and improve population health outcomes.\nI also share insights and reflections on public health issues through\nwritings, combining data analysis with critical perspectives on\nhealth policy and population challenges.\n📧 Email | 🔗 LinkedIn"
+  },
+  {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "Public Health & Data Insights",
+    "section": "About Me",
+    "text": "About Me\nI am a medical doctor and public health postgraduate student with a strong interest in epidemiology, biostatistics, and health data analysis.\nMy work focuses on transforming complex health datasets into meaningful insights that inform policy and intervention strategies."
+  },
+  {
+    "objectID": "index.html#selected-projects",
+    "href": "index.html#selected-projects",
+    "title": "Public Health & Data Insights",
+    "section": "Selected Projects",
+    "text": "Selected Projects\n\nGlobal Life Expectancy Analysis\n\nVisualized life expectancy\nCompared life expectancy among selected countries\n\n\n\n\nCOVID-19 Vaccination Trend Analysis\n\nAnalyzed vaccination trends across regions\n\nIdentified disparities in coverage\n\nHighlighted priority areas for intervention\n\n\n\n\nRisk Factor Analysis for Non-Communicable Diseases\n\nExplored associations between lifestyle and disease risk\n\nIdentified key predictors\n\nProvided prevention insights\n\n\n\n\nHealth Inequality Analysis\n\nCompared outcomes across demographic groups\n\nIdentified socioeconomic disparities\n\nSuggested data-driven recommendations"
+  },
+  {
+    "objectID": "projects.html#covid-19-vaccination-analysis",
+    "href": "projects.html#covid-19-vaccination-analysis",
+    "title": "Projects",
+    "section": "",
+    "text": "Time-series analysis of vaccination trends\n\nIdentified gaps in coverage\n\nProvided data-driven recommendations"
+  },
+  {
+    "objectID": "projects.html#risk-factor-analysis",
+    "href": "projects.html#risk-factor-analysis",
+    "title": "Projects",
+    "section": "",
+    "text": "Explored association between lifestyle and disease\n\nStatistical modelling\n\nIdentified key predictors"
+  },
+  {
+    "objectID": "projects.html#health-inequality-study",
+    "href": "projects.html#health-inequality-study",
+    "title": "Projects",
+    "section": "",
+    "text": "Compared demographic groups\n\nHighlighted disparities\n\nSuggested policy insights"
+  },
+  {
+    "objectID": "insights.html",
+    "href": "insights.html",
+    "title": "Insights",
+    "section": "",
+    "text": "Insights"
+  },
+  {
+    "objectID": "projects/project1/analysis.html#insight-1",
+    "href": "projects/project1/analysis.html#insight-1",
+    "title": "Global Life Expectancy Analysis",
+    "section": "Insight",
+    "text": "Insight\nThe graph reveals three distinct tiers of life expectancy across the entire 24-year period: - High tier (Australia), consistently holds the highest life expectancy, starting near 79 years in 2000 and climbing toward the mid-80s by 2024. - Mid tier (Brazil), sits firmly in the middle, starting just under 70 years and rising to around 76 years. - Lower tier (Indonesia), consistently records the lowest life expectancy of the three, starting around 66 years and ending just above 71 years.\nFrom 2000 up until 2009, all three countries experienced a steady, positive upward trajectory. This might reflect global improvements in healthcare, sanitation, and living standards.\nThe most striking feature of the graph is the dramatic drop in life expectancy around 2020-2021. This sharp downward spike is highly characteristic of the global impact of the COVID-19 pandemic. Interestingly, Australia’s line does not show a sharp drop during 2020-2021. Instead, it plateaus and slightly rounds off. This reflects Australia’s strict early pandemic border controls and isolation measures, which delayed or minimised initial excess mortality compared to Brazil and Indonesia.\nFollowing the pandemic shock, the graph shows a rapid “V-shaped” recovery for the affected nations (Brazil and Indonesia). Australia shows a slight, minor dip or stabilisation in the final years (2022-2024), which aligns with the period when the country opened its borders."
+  },
+  {
+    "objectID": "analysis.html",
+    "href": "analysis.html",
+    "title": "Global Life Expectancy Analysis",
+    "section": "",
+    "text": "This project explores global trends in life expectancy using World Bank data."
+  },
+  {
+    "objectID": "analysis.html#load-libraries",
+    "href": "analysis.html#load-libraries",
+    "title": "Global Life Expectancy Analysis",
+    "section": "Load Libraries",
+    "text": "Load Libraries\n\nlibrary(tidyverse)\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.2.1     ✔ readr     2.2.0\n✔ forcats   1.0.1     ✔ stringr   1.6.0\n✔ ggplot2   4.0.3     ✔ tibble    3.3.1\n✔ lubridate 1.9.5     ✔ tidyr     1.3.2\n✔ purrr     1.2.2     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\n\n\n\n\n📥 Load Dataset\n\ndf_raw &lt;- read_csv(\"~/health-data-portfolio/projects/project1/API_SP.DYN.LE00.IN_DS2_en_csv_v2_121663.csv\", skip = 4)\n\nNew names:\nRows: 266 Columns: 71\n── Column specification\n──────────────────────────────────────────────────────── Delimiter: \",\" chr\n(4): Country Name, Country Code, Indicator Name, Indicator Code dbl (65): 1960,\n1961, 1962, 1963, 1964, 1965, 1966, 1967, 1968, 1969, 1970, ... lgl (2): 2025,\n...71\nℹ Use `spec()` to retrieve the full column specification for this data. ℹ\nSpecify the column types or set `show_col_types = FALSE` to quiet this message.\n• `` -&gt; `...71`\n\ndf_raw\n\n# A tibble: 266 × 71\n   `Country Name` `Country Code` `Indicator Name` `Indicator Code` `1960` `1961`\n   &lt;chr&gt;          &lt;chr&gt;          &lt;chr&gt;            &lt;chr&gt;             &lt;dbl&gt;  &lt;dbl&gt;\n 1 Aruba          ABW            Life expectancy… SP.DYN.LE00.IN     64.0   64.2\n 2 Africa Easter… AFE            Life expectancy… SP.DYN.LE00.IN     44.2   44.5\n 3 Afghanistan    AFG            Life expectancy… SP.DYN.LE00.IN     32.8   33.3\n 4 Africa Wester… AFW            Life expectancy… SP.DYN.LE00.IN     37.8   38.1\n 5 Angola         AGO            Life expectancy… SP.DYN.LE00.IN     37.9   36.9\n 6 Albania        ALB            Life expectancy… SP.DYN.LE00.IN     56.4   57.5\n 7 Andorra        AND            Life expectancy… SP.DYN.LE00.IN     72.1   72.6\n 8 Arab World     ARB            Life expectancy… SP.DYN.LE00.IN     44.8   45.5\n 9 United Arab E… ARE            Life expectancy… SP.DYN.LE00.IN     50.7   51.6\n10 Argentina      ARG            Life expectancy… SP.DYN.LE00.IN     64.2   64.6\n# ℹ 256 more rows\n# ℹ 65 more variables: `1962` &lt;dbl&gt;, `1963` &lt;dbl&gt;, `1964` &lt;dbl&gt;, `1965` &lt;dbl&gt;,\n#   `1966` &lt;dbl&gt;, `1967` &lt;dbl&gt;, `1968` &lt;dbl&gt;, `1969` &lt;dbl&gt;, `1970` &lt;dbl&gt;,\n#   `1971` &lt;dbl&gt;, `1972` &lt;dbl&gt;, `1973` &lt;dbl&gt;, `1974` &lt;dbl&gt;, `1975` &lt;dbl&gt;,\n#   `1976` &lt;dbl&gt;, `1977` &lt;dbl&gt;, `1978` &lt;dbl&gt;, `1979` &lt;dbl&gt;, `1980` &lt;dbl&gt;,\n#   `1981` &lt;dbl&gt;, `1982` &lt;dbl&gt;, `1983` &lt;dbl&gt;, `1984` &lt;dbl&gt;, `1985` &lt;dbl&gt;,\n#   `1986` &lt;dbl&gt;, `1987` &lt;dbl&gt;, `1988` &lt;dbl&gt;, `1989` &lt;dbl&gt;, `1990` &lt;dbl&gt;, …"
+  },
+  {
+    "objectID": "analysis.html#cleaning-data",
+    "href": "analysis.html#cleaning-data",
+    "title": "Global Life Expectancy Analysis",
+    "section": "Cleaning Data",
+    "text": "Cleaning Data\n\ndf_clean &lt;- df_raw %&gt;%\n  select(`Country Name`, starts_with(\"20\")) %&gt;%\n  pivot_longer(\n    cols = -`Country Name`,\n    names_to = \"year\",\n    values_to = \"life_expectancy\"\n  ) %&gt;%\n  mutate(year = as.numeric(year)) %&gt;%\n  drop_na()\ndf_clean\n\n# A tibble: 6,625 × 3\n   `Country Name`  year life_expectancy\n   &lt;chr&gt;          &lt;dbl&gt;           &lt;dbl&gt;\n 1 Aruba           2000            72.9\n 2 Aruba           2001            73.0\n 3 Aruba           2002            73.1\n 4 Aruba           2003            73.2\n 5 Aruba           2004            73.2\n 6 Aruba           2005            73.4\n 7 Aruba           2006            73.5\n 8 Aruba           2007            73.6\n 9 Aruba           2008            73.8\n10 Aruba           2009            74.0\n# ℹ 6,615 more rows\n\n\n\n##Global Trend Visualization\n\ndf_global &lt;- df_clean %&gt;%\n  group_by(year) %&gt;%\n  summarise(mean_life = mean(life_expectancy, na.rm = TRUE))\n\nggplot(df_global, aes(x = year, y = mean_life)) +\n  geom_line(color = \"blue\", size = 1) +\n  labs(\n    title = \"Global Life Expectancy Trend\",\n    x = \"Year\",\n    y = \"Life Expectancy\"\n  )\n\nWarning: Using `size` aesthetic for lines was deprecated in ggplot2 3.4.0.\nℹ Please use `linewidth` instead."
+  },
+  {
+    "objectID": "analysis.html#insight",
+    "href": "analysis.html#insight",
+    "title": "Global Life Expectancy Analysis",
+    "section": "Insight",
+    "text": "Insight\nGlobal life expectancy has shown a consistent increasing trend over the last two decades.\nFor nearly two decades, the line climbs at a remarkably steady and predictable rate. This reflects immense global strides in reducing child mortality, improving access to clean water, expanding vaccine availability, and advancing medical treatments worldwide.\nStarting in 2020, the steady upward trend is abruptly broken. Global life expectancy plummets sharply over a two-year period, bottoming out in 2021 at approximately 71.4 years. A drop of more than a full year on a global scale is an extraordinary demographic shock. This visualizes the collective impact of the COVID-19 pandemic—not just from direct virus fatalities, but also from strained healthcare systems worldwide that disrupted treatment for other conditions.\nBy 2023 and 2024, the line completely recovers from the pandemic slump and surges to its highest point on the graph, reaching nearly 73.5 years. This indicates that once the acute crisis phase of the pandemic passed, global healthcare systems and population health metrics rapidly corrected back to their long-term growth trajectories."
+  },
+  {
+    "objectID": "analysis.html#indonesia-vs-australia-vs-brazil",
+    "href": "analysis.html#indonesia-vs-australia-vs-brazil",
+    "title": "Global Life Expectancy Analysis",
+    "section": "Indonesia vs Australia vs Brazil",
+    "text": "Indonesia vs Australia vs Brazil\n\nselected_countries &lt;- df_clean %&gt;%\n  filter(`Country Name` %in% c(\"Indonesia\", \"Australia\", \"Brazil\"))\n\nggplot(selected_countries, aes(year, life_expectancy, color = `Country Name`)) +\n  geom_line(size = 1) +\n  labs(\n    title = \"Life Expectancy Comparison\",\n    y = \"Life Expectancy\"\n  )"
+  },
+  {
+    "objectID": "analysis.html#insight-1",
+    "href": "analysis.html#insight-1",
+    "title": "Global Life Expectancy Analysis",
+    "section": "Insight",
+    "text": "Insight\nThe graph reveals three distinct tiers of life expectancy across the entire 24-year period: - High tier (Australia), consistently holds the highest life expectancy, starting near 79 years in 2000 and climbing toward the mid-80s by 2024. - Mid tier (Brazil), sits firmly in the middle, starting just under 70 years and rising to around 76 years. - Lower tier (Indonesia), consistently records the lowest life expectancy of the three, starting around 66 years and ending just above 71 years.\nFrom 2000 up until 2009, all three countries experienced a steady, positive upward trajectory. This might reflect global improvements in healthcare, sanitation, and living standards.\nThe most striking feature of the graph is the dramatic drop in life expectancy around 2020-2021. This sharp downward spike is highly characteristic of the global impact of the COVID-19 pandemic. Interestingly, Australia’s line does not show a sharp drop during 2020-2021. Instead, it plateaus and slightly rounds off. This reflects Australia’s strict early pandemic border controls and isolation measures, which delayed or minimised initial excess mortality compared to Brazil and Indonesia.\nFollowing the pandemic shock, the graph shows a rapid “V-shaped” recovery for the affected nations (Brazil and Indonesia). Australia shows a slight, minor dip or stabilisation in the final years (2022-2024), which aligns with the period when the country opened its borders."
   }
 ]
