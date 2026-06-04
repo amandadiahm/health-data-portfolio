@@ -12,3 +12,5 @@ This project explores trends in life expectancy using World Bank data.
 - Basic statistical analysis
 
 👉 [View Project](projects/project1/analysis.html)
+
+quarto::quarto_render()

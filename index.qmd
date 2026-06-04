@@ -1,18 +1,201 @@
 
 
-# Welcome 👋
 
-Hi! I'm Amanda — a medical doctor and MPH student exploring health data analysis using R.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Amanda Diah Maharani | Portfolio</title>
 
-## 🔬 My Focus
-- Public health
-- Data analysis with R
-- Epidemiology
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      background: #f8f9fa;
+      color: #333;
+    }
 
-## 📊 Featured Projects
-- Global Life Expectancy Analysis (coming soon)
+    header {
+      background: #1f3a5f;
+      color: white;
+      padding: 80px 20px;
+      text-align: center;
+    }
 
----
+    header h1 {
+      margin: 0;
+      font-size: 36px;
+    }
 
-## 📫 Connect with me
-- GitHub: https://github.com/amdmaharani
+    header p {
+      margin-top: 15px;
+      font-size: 18px;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      margin: 10px;
+      background: #2a9d8f;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    .btn-outline {
+      background: white;
+      color: #2a9d8f;
+      border: 1px solid #2a9d8f;
+    }
+
+    section {
+      max-width: 900px;
+      margin: auto;
+      padding: 50px 20px;
+    }
+
+    h2 {
+      margin-bottom: 20px;
+      color: #1f3a5f;
+    }
+
+    .projects {
+      display: grid;
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+
+    .card h3 {
+      margin-top: 0;
+    }
+
+    .card ul {
+      padding-left: 20px;
+    }
+
+    .skills {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+
+    footer {
+      background: #1f3a5f;
+      color: white;
+      text-align: center;
+      padding: 30px;
+    }
+
+    a {
+      color: #2a9d8f;
+      text-decoration: none;
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- HERO -->
+<header>
+  <h1>Amanda Diah Maharani</h1>
+  <p>
+    Medical Doctor who is interested in having fun with data<br>
+    I transform health data into actionable insights to support 
+    evidence-based decisions and improve population health outcomes.
+  </p>
+
+  <a href="#projects" class="btn">View Projects</a>
+  <a href="#" class="btn btn-outline">Download CV</a>
+</header>
+
+<!-- ABOUT -->
+<section>
+  <h2>About Me</h2>
+  <p>
+    I am a public health postgraduate student with a strong interest in epidemiology,
+    biostatistics, and health data analysis.
+  </p>
+  <p>
+    My work focuses on transforming health datasets into meaningful insights 
+    that can inform policy, intervention strategies, and public health decision-making.
+  </p>
+  <p>
+    I have experience working with R, Excel, and SPSS to analyze population-level 
+    health data.
+  </p>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <h2>Selected Projects</h2>
+
+  <div class="projects">
+
+    <div class="card">
+      <h3>COVID-19 Vaccination Trend Analysis</h3>
+      <ul>
+        <li>Analyzed vaccination trends across regions</li>
+        <li>Identified disparities in coverage</li>
+        <li>Highlighted priority areas for intervention</li>
+      </ul>
+      <p><b>Tools:</b> R, ggplot2, Excel</p>
+      <a href="#">View Project</a>
+    </div>
+
+    <div class="card">
+      <h3>Risk Factor Analysis for Non-Communicable Diseases</h3>
+      <ul>
+        <li>Explored associations between lifestyle and disease risk</li>
+        <li>Identified key predictors</li>
+        <li>Provided prevention insights</li>
+      </ul>
+      <p><b>Tools:</b> R, SPSS</p>
+      <a href="#">View Project</a>
+    </div>
+
+    <div class="card">
+      <h3>Health Inequality Analysis</h3>
+      <ul>
+        <li>Compared outcomes across demographic groups</li>
+        <li>Identified socioeconomic disparities</li>
+        <li>Suggested data-driven recommendations</li>
+      </ul>
+      <p><b>Tools:</b> R, Excel</p>
+      <a href="#">View Project</a>
+    </div>
+
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section>
+  <h2>Skills</h2>
+  <div class="skills">
+    <p><b>Data Analysis:</b> R, Excel, SPSS</p>
+    <p><b>Data Visualization:</b> ggplot2</p>
+    <p><b>Public Health:</b> Epidemiology, Biostatistics, Health Policy</p>
+    <p><b>Research:</b> Statistical Analysis, Data Interpretation</p>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<footer>
+  <h2>Get in Touch</h2>
+  <p>Email: amanda.dmaharani@gmail.com</p>
+  <p>
+    <a href="#">https://www.linkedin.com/in/amandadiahm</a> |
+    <a href="#">https://github.com/amandadiahm</a>
+  </p>
+</footer>
+
+</body>
+</html>
