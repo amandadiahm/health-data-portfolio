@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.36">
+<meta name="generator" content="quarto-1.9.37">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Global Life Expectancy Analysis – Amanda’s Playground</title>
+<title>Global Life Expectancy Analysis – Amanda Diah Maharani, MD</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -74,10 +74,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-a0f9fd0d421825b736dc1bbcbcba2219.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-6b423f165eeea3787de40cb4f8e821c3.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -105,11 +105,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-label": "Search"
   }
 }</script>
+<style>html{ scroll-behavior: smooth; }</style>
 
 
+<link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -117,7 +119,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="../../index.html">
-    <span class="navbar-title">Amanda’s Playground</span>
+    <span class="navbar-title">Amanda Diah Maharani, MD</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -138,6 +140,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <a class="nav-link" href="../../projects.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
+  <li class="nav-item">
+    <span class="nav-link">
+<span class="menu-text">Insights</span>
+    </span>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../insights.html"> 
+<span class="menu-text">Insights</span></a>
+  </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -149,7 +160,22 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#load-libraries" id="toc-load-libraries" class="nav-link active" data-scroll-target="#load-libraries">Load Libraries</a>
+  <ul class="collapse">
+  <li><a href="#load-dataset" id="toc-load-dataset" class="nav-link" data-scroll-target="#load-dataset">📥 Load Dataset</a></li>
+  </ul></li>
+  <li><a href="#cleaning-data" id="toc-cleaning-data" class="nav-link" data-scroll-target="#cleaning-data">Cleaning Data</a></li>
+  <li><a href="#insight" id="toc-insight" class="nav-link" data-scroll-target="#insight">Insight</a></li>
+  <li><a href="#indonesia-vs-australia-vs-brazil" id="toc-indonesia-vs-australia-vs-brazil" class="nav-link" data-scroll-target="#indonesia-vs-australia-vs-brazil">Indonesia vs Australia vs Brazil</a></li>
+  <li><a href="#insight-1" id="toc-insight-1" class="nav-link" data-scroll-target="#insight-1">Insight</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -295,7 +321,9 @@ Specify the column types or set `show_col_types = FALSE` to quiet this message.
 <section id="insight" class="level2">
 <h2 class="anchored" data-anchor-id="insight">Insight</h2>
 <p>Global life expectancy has shown a consistent increasing trend over the last two decades.</p>
-<p>This improvement may reflect better access to healthcare, vaccination programs, and public health interventions across countries.</p>
+<p>For nearly two decades, the line climbs at a remarkably steady and predictable rate. This reflects immense global strides in reducing child mortality, improving access to clean water, expanding vaccine availability, and advancing medical treatments worldwide.</p>
+<p>Starting in 2020, the steady upward trend is abruptly broken. Global life expectancy plummets sharply over a two-year period, bottoming out in 2021 at approximately 71.4 years. A drop of more than a full year on a global scale is an extraordinary demographic shock. This visualizes the collective impact of the COVID-19 pandemic—not just from direct virus fatalities, but also from strained healthcare systems worldwide that disrupted treatment for other conditions.</p>
+<p>By 2023 and 2024, the line completely recovers from the pandemic slump and surges to its highest point on the graph, reaching nearly 73.5 years. This indicates that once the acute crisis phase of the pandemic passed, global healthcare systems and population health metrics rapidly corrected back to their long-term growth trajectories.</p>
 <hr>
 </section>
 <section id="indonesia-vs-australia-vs-brazil" class="level2">
@@ -318,7 +346,14 @@ Specify the column types or set `show_col_types = FALSE` to quiet this message.
 </div>
 </div>
 </div>
-<p>quarto::quarto_render(“analysis.qmd”)</p>
+<hr>
+</section>
+<section id="insight-1" class="level2">
+<h2 class="anchored" data-anchor-id="insight-1">Insight</h2>
+<p>The graph reveals three distinct tiers of life expectancy across the entire 24-year period: - High tier (Australia), consistently holds the highest life expectancy, starting near 79 years in 2000 and climbing toward the mid-80s by 2024. - Mid tier (Brazil), sits firmly in the middle, starting just under 70 years and rising to around 76 years. - Lower tier (Indonesia), consistently records the lowest life expectancy of the three, starting around 66 years and ending just above 71 years.</p>
+<p>From 2000 up until 2009, all three countries experienced a steady, positive upward trajectory. This might reflect global improvements in healthcare, sanitation, and living standards.</p>
+<p>The most striking feature of the graph is the dramatic drop in life expectancy around 2020-2021. This sharp downward spike is highly characteristic of the global impact of the COVID-19 pandemic. Interestingly, Australia’s line does not show a sharp drop during 2020-2021. Instead, it plateaus and slightly rounds off. This reflects Australia’s strict early pandemic border controls and isolation measures, which delayed or minimised initial excess mortality compared to Brazil and Indonesia.</p>
+<p>Following the pandemic shock, the graph shows a rapid “V-shaped” recovery for the affected nations (Brazil and Indonesia). Australia shows a slight, minor dip or stabilisation in the final years (2022-2024), which aligns with the period when the country opened its borders.</p>
 
 
 </section>
@@ -729,4 +764,5 @@ Specify the column types or set `show_col_types = FALSE` to quiet this message.
 
 
 
+<script src="../../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>
