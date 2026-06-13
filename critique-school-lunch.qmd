@@ -1,0 +1,86 @@
+---
+title: "Critique of Universal School Meal Policy in Australia"
+author: "Amanda Diah Maharani"
+date: "25th March, 2026"
+format: html
+---
+
+## Context
+
+This essay critically reviews the following article published on *The Conversation*:
+
+
+**Australian kids BYO lunches to school – There is a healthier way to feed students**  
+Spencer, Kent, & Williams (2025)
+
+🔗 https://theconversation.com/australian-kids-byo-lunches-to-school-there-is-a-healthier-way-to-feed-students-257465
+
+
+## Introduction
+
+Australia has many working parents struggling to prepare nutrient-dense school lunches for their children. According to the Australian Bureau of Statistics (2025a), about 73% of couples raising children aged 0-14 are dual-earner families with limited time to perform meal preparation. In such a situation, Spencer, Kent, and Williams (2025) reported that more than 80% of Australian primary school lunchboxes fell short of nutritional standards, and that junk food accounted for half of students’ intake. As a consequence of low-quality lunchboxes, children may experience significant long-term health impacts, including increased risk of obesity and chronic diseases (Gallegos et al., 2025). 
+
+Therefore, Spencer, Kent, and Williams (2025) proposed a universal school meal program as a population-level, prevention-focused approach to address the poor nutrition issue among Australian students. 
+
+
+## Overview of the Proposed Policy
+
+Spencer, Kent, and Williams (2025) propose a universal school meal program as a population-level intervention to address poor dietary quality among Australian schoolchildren.
+
+The policy aims to provide nutritious meals to all students regardless of socioeconomic background, with particular benefits for vulnerable populations, including Aboriginal and Torres Strait Islander children.
+
+
+## Strengths of the Policy Proposal
+
+Finland and Sweden are early adopters of the universal school meal program and are considered highly successful pilot models (Spencer et al., 2025). The implementation of universal school meal programs over the past seven decades in Finland and Sweden has led to improvements in the health, social, environmental, and community sectors (Gallegos et al., 2025). For instance, it has been reported that the programs have significantly changed the dietary habits of schoolchildren in both countries, shifting from high consumption of processed foods to a vitamin-rich diet.  
+
+Reflecting on these success stories, Gallegos (2025) also highlighted that the universal school meal program should be implemented more systematically, not exclusively, to address nutritional issues among schoolchildren. A more integrated approach may influence children’s health by strengthening social and cultural well-being, improving food and nutrition security, supporting local food systems and advancing toward sustainable food systems (Gallegos et al., 2025). This evidence shows that the Australian government could adopt these international models to invest in extensive and equitable school meal programs.
+
+
+## Implementation Challenges
+
+### Geographic and Logistical Barriers
+
+Despite the potential merits, the Australian government needs to consider the challenges of implementing the universal school meal program. Firstly, compared with Finland and Sweden, Australia is twenty times larger, with an area of nearly 7.7 million km2 (Australian Bureau of Statistics [ABS], 2012, para. 1). These geographic barriers pose immense operational challenges in the food supply chain. 
+
+This issue can be illustrated by analysing Indonesia, a neighbouring country whose vast area is comparable to that of Australia. In January 2025, the Indonesian government launched its universal school meal program to address the triple burden of malnutrition, in which undernutrition, overnutrition, and micronutrient deficiencies simultaneously occur (Andriani et al., 2023; Surendra et al., 2026). Beyond its aspirational purpose, the program has faced major operational weaknesses due to the hastily arranged implementation. Aiming to maintain national quality consistency and suppress national funds, the Indonesian government uses a centralized logistics system while overlooking the country’s archipelagic structure and size (Surendra et al., 2026). These decisions appear to have contributed to regional disparities, logistical delays, and persistent outbreaks of food poisoning. 
+
+A recent annual evaluation of this program reported that food poisoning cases account for over 20,000 students in nearly 25% of districts in Indonesia (Surendra et al., 2026). 
+
+This is a concrete example of the lack of integrated standards and multisectoral collaboration across the country in policy execution, which has led to catastrophic events. 
+
+
+### Cultural Diversity and Health Equity
+
+Another challenge worth highlighting is Australia's demographic diversity. Australia is home to 276 unique cultures and ethnic groups (ABS, 2025b, para. 25). Therefore, ensuring national nutrition guidelines that promote cultural diversity and inclusivity is important, as some cultures have dietary restrictions rooted in their beliefs. Essential measures involve local procurement, culturally appropriate menus, regional preparation centres and strengthened food safety protocols. More importantly, the participation of the Aboriginal and Torres Strait Islander communities in proposing a new policy is compulsory. 
+
+Cartwright (2025) reported that previous policies created to improve health equity between Aboriginal and Torres Strait Islander People and non-Indigenous Australians did not result as expected due to the absence of First Nations voices in policy-making. These failures arise from insufficient insider knowledge, including a lack of genuine understanding of community priorities and limited engagement with Aboriginal and Torres Strait Islander ontological and epistemological frameworks (Cartwright et al., 2025). 
+
+In the context of the food landscape, Aboriginal and Torres Strait Islander communities have practiced a food system that combines complex scientific observation with land care practices rooted in reciprocity and community values. Colonialism has significantly erased this ancestral system, which has evidently contributed to the rising prevalence of non-communicable diseases due to the shift toward Western food consumption (Cartwright et al., 2025). Considering these issues, prioritizing cultural determinants of health and integrating them with social determinants is critical for developing effective strategies to address health disparities (Cartwright et al., 2025).
+
+
+## Critical Reflection
+
+Finally, while I agree that the universal school meal program may be a viable alternative to address poor nutrition, food insecurity, and socioeconomic disparities, I believe a more careful approach to its implementation is needed. The success of this program depends on addressing structural and cultural barriers discussed beforehand. Consequently, considerable funding and ongoing government investment are required to achieve the program's aim and tackle the challenges it faces (Cartwright et al., 2025). 
+
+Intersectoral collaboration among governments, subject-matter experts such as public health nutritionists, community representatives, school administrators and educators, parents and guardians is mandatory to incorporate insights and feedback (Gallegos et al., 2025). Ongoing monitoring and reporting are also required to maintain the quality of the program's long-term evaluation. Existing evidence suggests that the universal school meal program could significantly improve children's health, but only if implemented through a culturally sensitive, operational excellence and adequately funded public health strategy.
+
+
+## References
+
+Article Reference
+
+1. Spencer, L., Kent, K., & Williams, M. (2025, June 4). Australian kids BYO lunches to school. There is a healthier way to feed students. The Conversation. https://theconversation.com/australian-kids-byo-lunches-to-school-there-is-a-healthier-way-to-feed-students-257465
+
+Primary References
+
+1. Cartwright, J., Turner, N., Bruce, S., Sultanbawa, Y. F., Netzel, M. E., & Wright, O. R. L. (2025). Exploring the perspectives of urban and regional living Aboriginal and Torres Strait Islander Peoples regarding bush foods, nutrition and health: insights for culturally informed health policy in Australia. Public Health Nutr, 28(1), e124. https://doi.org/10.1017/S1368980025100694 
+2. Gallegos, D., Manson, A., Vidgen, H. A., Byrne, R., & Johnson, B. J. (2025). School-Provided Meals and the Prevention of Childhood Obesity: A Small part of a Very Important Story. Curr Obes Rep, 14(1), 44. https://doi.org/10.1007/s13679-025-00635-x 
+3. Surendra, H., Sujagat, A., & Wangge, G. (2026). Mitigating food safety risks in Indonesia's free school meals programme. Lancet Reg Health Southeast Asia, 46, 100734. https://doi.org/10.1016/j.lansea.2026.100734 
+
+Additional References
+
+1. Andriani, H., Friska, E., Arsyi, M., Sutrisno, A. E., Waits, A., & Rahmawati, N. D. (2023). A multilevel analysis of the triple burden of malnutrition in Indonesia: trends and determinants from repeated cross-sectional surveys. BMC Public Health, 23(1), 1836. https://doi.org/10.1186/s12889-023-16728-y 
+2. Australian Bureau of Statistics. (2012). Geography of Australia.        https://www.abs.gov.au/ausstats/abs@.nsf/Lookup/by%20Subject/1301.0~2012~Main%20Features~Geography%20of%20Australia~12
+3. Australian Bureau of Statistics. (2025). Australian Standard Classification of Cultural and Ethnic Groups (ASCCEG): Latest release. Australian Bureau of Statistics. https://www.abs.gov.au/statistics/standards/australian-statistical-geography-standard-asgs-edition-3/latest-release
+4. Australian Bureau of Statistics. (2025). Labour force status of families. https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-status-families/latest-release

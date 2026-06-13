@@ -2,3 +2,11 @@
 
 
 # Insights
+
+Explore my thoughts and analyses on global and local public health issues. This space brings together a selection of essays I have written, offering insights into health trends, policy discussions and data-driven perspectives in public health.
+
+Click on the titles below to read the full essays.
+
+## [Critique of Universal School Meal Policy in Australia](critique-school-lunch.qmd)  
+
+A critical analysis of proposed school-based nutrition policies in Australia.
