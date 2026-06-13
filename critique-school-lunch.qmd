@@ -1,7 +1,7 @@
 ---
 title: "Critique of Universal School Meal Policy in Australia"
 author: "Amanda Diah Maharani"
-date: "25th March, 2026"
+date: "03/25/2026"
 format: html
 ---
 

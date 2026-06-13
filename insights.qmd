@@ -10,3 +10,7 @@ Click on the titles below to read the full essays.
 ## [Critique of Universal School Meal Policy in Australia](critique-school-lunch.qmd)  
 
 A critical analysis of proposed school-based nutrition policies in Australia.
+
+## [Two Systems, Two Strategies: Health Financing and Universal Coverage in Australia and Thailand](comparative-health-financing.qmd)
+
+A comparative analysis of health financing in a high-income and middle-income country. 
